@@ -1,0 +1,165 @@
+/* Reset de estilos */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+	margin: 0;
+	padding: 0;
+	
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+	background-color: #f0f0f0;
+	color: #333;
+	
+}
+
+/* Encabezado */
+header {
+	background-color: #3498db;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+#redessociales {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#redessociales li {
+    display: inline-block;
+    margin: 0 10px; /* Ajusta el margen entre los íconos según sea necesario */
+}
+
+#redessociales a {
+    text-decoration: none;
+}
+
+.rss-1,
+.rss-2 {
+    max-width: 50px; /* Ajusta el ancho máximo según sea necesario */
+    height: auto;
+}
+
+/* Opcional: Agregar efectos al pasar el ratón sobre los íconos */
+#redessociales a:hover .rss-1 {
+    filter: grayscale(0%); /* Mostrar la imagen a color en hover */
+}
+
+#redessociales a:hover .rss-2 {
+    filter: grayscale(0%); /* Mostrar la imagen a color en hover */
+}
+
+/* Navegación */
+nav {
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 10vh;
+	/* Asegura que ocupe el 100% de la altura de la ventana */
+	margin: 0;
+	/* Elimina el margen predeterminado del cuerpo */
+
+
+}
+
+ul {
+	list-style: none;
+	text-align: center;
+
+}
+
+li {
+	display: inline-block;
+	margin-right: 20px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #3498db;
+	font-weight: bold;
+}
+
+/* Contenido principal */
+main {
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+h2 {
+	color: #3498db;
+	text-align: center;
+
+}
+
+p {
+	line-height: 1.6;
+	text-align: center;
+	
+
+}
+
+
+img{
+	display: flex;
+	justify-content: center;
+		
+	}
+	
+	
+.imagen-1 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    /* O ajusta la altura según sea necesario */
+    height: 50vh;
+}
+	/* Pie de página */
+	footer {
+		background-color: #333;
+		color: #fff;
+		padding: 10px;
+		text-align: center;
+	}
+
+	/* Opciones del menú */
+	#opciones {
+		background-color: #3498db;
+		overflow: hidden;
+		border-radius: 10px;
+		text-align: center;
+	}
+
+	.opcionesmenu1,
+	.opcionesmenu2 {
+		float: left;
+	}
+
+	.opcionesmenu1 a,
+	.opcionesmenu2 a {
+		display: block;
+		color: #fff;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+
+	}
+
+	.opcionesmenu1:hover,
+	.opcionesmenu2:hover {
+		background-color: #1e6daa;
+	}

@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+
+
+main {
+    background-color: #3498db; /* Color de fondo para el área de contenido */
+    border-radius: 10px; /* Bordes redondeados para un aspecto más moderno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para resaltar el contenido */
+    padding: 20px; /* Espaciado interno para el área de contenido */
+    
+}
+
+
+
+table {
+
+	border-collapse: collapse;
+	width: 100%;
+	max-width: 300px;
+	margin: 0 auto;
+	
+}
+
+td {
+
+	padding: 20px;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+h1, h2, h3, h4 {
+    display: inline;
+    color: #ecf0f1; /* Color del texto para los encabezados */
+    font-size: 12px; /* Tamaño de letra 15 píxeles */
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+input[type="submit"] {
+    background-color: #2ecc71; /* Color de fondo para el botón de envío */
+    color: #fff; /* Color del texto para el botón de envío */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Agrega una transición suave al color de fondo */
+}
+
+input[type="submit"]:hover {
+    background-color: #27ae60; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+}

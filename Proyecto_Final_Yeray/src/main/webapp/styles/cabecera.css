@@ -1,0 +1,57 @@
+/* Reset de estilos */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+	background-color: #f0f0f0;
+	color: #333;
+}
+
+/* Encabezado */
+header {
+	background-color: #3498db;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+#redessociales {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#redessociales li {
+    display: inline-block;
+    margin: 0 10px; /* Ajusta el margen entre los íconos según sea necesario */
+}
+
+#redessociales a {
+    text-decoration: none;
+}
+
+.rss-1,
+.rss-2 {
+    max-width: 50px; /* Ajusta el ancho máximo según sea necesario */
+    height: auto;
+}
+
+/* Opcional: Agregar efectos al pasar el ratón sobre los íconos */
+#redessociales a:hover .rss-1 {
+    filter: grayscale(0%); /* Mostrar la imagen a color en hover */
+}
+
+#redessociales a:hover .rss-2 {
+    filter: grayscale(0%); /* Mostrar la imagen a color en hover */
+}
